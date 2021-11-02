@@ -1,0 +1,31 @@
+{
+	"defaultSeverity": "warning",
+	"extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier", "tslint-react-a11y"],
+	"jsRules": {},
+	"linterOptions": {
+		"exclude": ["node_modules/**/*.ts", "dist/**/*.js", "src/generated/graphql.tsx"]
+	},
+
+	"rules": {
+		"semicolon": [false, "never"],
+		"quotemark": [true, "double"],
+		"indent": false,
+		"object-literal-sort-keys": false,
+		"no-shadowed-variable": false,
+		"max-line-length": false,
+		"prefer-for-of": false,
+		"variable-name": false,
+		"no-empty": false,
+		"jsx-boolean-value": false,
+		"no-console": false,
+		"member-access": false,
+		"max-classes-per-file": false,
+		"jsx-no-multiline-js": false,
+		"member-ordering": false,
+		"no-var-requires": false,
+		"ordered-imports": false,
+		"jsx-no-lambda": false,
+		"react-a11y-lang": false,
+		"no-constant-condition": true
+	}
+}
