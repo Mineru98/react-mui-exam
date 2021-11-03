@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import React, { useState, useRef, ReactNode } from "react";
 import { alpha } from "@mui/material/styles";
-// import { styled, makeStyles, createStyles } from "@mui/styles";
 import { makeStyles, createStyles } from "@mui/styles";
 import {
 	AppBar,
@@ -42,44 +41,6 @@ import HelpIcon from "@mui/icons-material/Help";
 import theme from "services/index/utils/theme";
 
 const drawerWidth = 240;
-
-// const Search = styled("div")(() => ({
-// 	position: "relative",
-// 	borderRadius: theme.shape.borderRadius,
-// 	backgroundColor: alpha(theme.palette.common.white, 0.15),
-// 	"&:hover": {
-// 		backgroundColor: alpha(theme.palette.common.white, 0.25),
-// 	},
-// 	marginRight: theme.spacing(2),
-// 	marginLeft: 0,
-// 	width: "100%",
-// 	[theme.breakpoints.up("sm")]: {
-// 		marginLeft: theme.spacing(3),
-// 		width: "auto",
-// 	},
-// }));
-
-// const SearchIconWrapper = styled("div")(() => ({
-// 	padding: theme.spacing(0, 2),
-// 	height: "100%",
-// 	position: "absolute",
-// 	pointerEvents: "none",
-// 	display: "flex",
-// 	alignItems: "center",
-// 	justifyContent: "center",
-// }));
-
-// const StyledInputBase = styled(InputBase)(() => ({
-// 	color: "inherit",
-// 	"& .MuiInputBase-input": {
-// 		padding: theme.spacing(1, 1, 1, 6),
-// 		transition: theme.transitions.create("width"),
-// 		width: "100%",
-// 		[theme.breakpoints.up("md")]: {
-// 			width: "28ch",
-// 		},
-// 	},
-// }));
 
 const useStyles = makeStyles(() =>
 	createStyles({
